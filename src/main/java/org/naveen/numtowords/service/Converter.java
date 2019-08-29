@@ -1,9 +1,12 @@
-package org.naveen.numtowords;
+package org.naveen.numtowords.service;
+
+import static ong.naveen.numtowords.constants.Constants.AND;
+import static ong.naveen.numtowords.constants.Constants.EMPTY;
+import static ong.naveen.numtowords.constants.Constants.HUNDRED;
 
 import java.util.Optional;
-import static org.naveen.numtowords.Constants.AND;
-import static org.naveen.numtowords.Constants.EMPTY;
-import static org.naveen.numtowords.Constants.HUNDRED;
+
+import org.naveen.numtowords.config.Mappers;
 
 public class Converter {
 	private int divisor;

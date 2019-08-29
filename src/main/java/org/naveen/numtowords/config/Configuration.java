@@ -1,10 +1,13 @@
-package org.naveen.numtowords;
+package org.naveen.numtowords.config;
+
+import static ong.naveen.numtowords.constants.Constants.EMPTY;
+import static ong.naveen.numtowords.constants.Constants.MILLION;
+import static ong.naveen.numtowords.constants.Constants.THOUSAND;
 
 import java.util.ArrayList;
 import java.util.List;
-import static org.naveen.numtowords.Constants.MILLION;
-import static org.naveen.numtowords.Constants.THOUSAND;
-import static org.naveen.numtowords.Constants.EMPTY;
+
+import org.naveen.numtowords.service.Converter;
 
 public class Configuration {
 	
